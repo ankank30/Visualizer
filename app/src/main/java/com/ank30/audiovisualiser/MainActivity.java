@@ -88,6 +88,7 @@ public class MainActivity extends AppCompatActivity {
                         playBack.setEnabled(false);
                     }
                     catch  (Exception ex) {
+                        ex.printStackTrace();
                         Toast.makeText(MainActivity.this, "Recording Error", Toast.LENGTH_SHORT).show();
                     }
 
